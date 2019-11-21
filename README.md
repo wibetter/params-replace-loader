@@ -12,10 +12,6 @@ $ npm install --save-dev params-replace-loader
 
 待填写
 
-### Plain replacement:
-
-Plain string replacement, no need to escape RegEx special characters.
-
 In your `webpack.config.js`:
 
 ```javascript
