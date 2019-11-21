@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,width=device-width,viewport-fit=cover">
+    <title>Demo</title>
+    <link rel="shortcut icon" href="#assetsPublicPath#/img/favicon.ico">
+    <script type="text/javascript" src="#assetsPublicPath#/scripts/app/flexible.js?v=#version#"></script>
+    <script type="text/javascript">
+      var flexible = window.flexible || window.PAGECTRL.flexible || {};
+      // flexible 初始化
+      flexible.init({
+        designWidth: 750,
+        maxWidth: 750,
+      });
+      flexible.resize(function(info) {
+        // console.log( info );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      // 备注：PAGEDATA.Config中的配置数据主要是给APIList.js和PageRouteList.js引用
+      PAGEDATA.Config = {
+        dataApiBase: '#dataApiBase#', // 接口根地址[数据由webpack写入]
+        routeBasePath: '#routeBasePath#',
+      };
+    </script>
+    <script type="text/javascript" src="#assetsPublicPath#/scripts/lib/jquery.11.3.min.js"></script>
+  </body>
+</html>

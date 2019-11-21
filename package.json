@@ -1,0 +1,35 @@
+{
+  "name": "params-replace-loader",
+  "version": "1.0",
+  "description": "用于项目环境变量批量自动替换的webpack loader",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wibetter/params-replace-loader.git"
+  },
+  "keywords": [
+    "params-replace-loader",
+    "webpack loader",
+    "项目环境变量批量自动替换",
+    "replace",
+    "string-replace"
+  ],
+  "author": {
+    "name": "ldan",
+    "email": "365533093@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wibetter/params-replace-loader/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.2.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "webpack": "^4.34.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
