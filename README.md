@@ -27,7 +27,7 @@ module.exports = {
              '#version#': '20191121.1',
            },
            local: {
-             '#assetsPublicPath#': 'http://dev.sina.cn',
+             '#assetsPublicPath#': 'http://localhost',
              '#routeBasePath#': '/',
              ...
            },
