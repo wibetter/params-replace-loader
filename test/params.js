@@ -4,8 +4,8 @@ const envParams = {
     '#version#': '20191121.1',
   },
   local: { // 本地开发环境
-    '#dataApiBase#': 'http://dev.sina.cn',
-    '#assetsPublicPath#': 'http://dev.sina.cn',
+    '#dataApiBase#': 'http://localhost',
+    '#assetsPublicPath#': 'http://localhost',
     '#routeBasePath#': '/',
   },
   test: { // 线上测试环境配置参数
