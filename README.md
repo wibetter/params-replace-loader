@@ -1,6 +1,6 @@
 # Params replace loader for [Webpack](http://webpack.github.io/)
 
-用于项目环境变量批量自动替换的webpack loader。
+用于项目环境变量批量自动替换的webpack-loader。
 
 ## 安装:
 
