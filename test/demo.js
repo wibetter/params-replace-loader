@@ -1,10 +1,10 @@
-const indexAction = require('../index');
+const mainAction = require('../lib/mainAction');
 
 // 录入测试内容文件
 const params = require('./params');
-const template = require('./template.html');
+const testContent = require('./testContent');
 
-const newCont = indexAction(template, params);
+const newCont = mainAction(JSON.stringify(testContent), params);
 
 console.log(newCont);
 

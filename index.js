@@ -1,3 +1,3 @@
-const mainAction = require('./lib/mainAction');
+const loaderMain = require('./lib/loaderMain');
 
-module.exports = mainAction;
+module.exports = loaderMain;

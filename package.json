@@ -1,6 +1,6 @@
 {
   "name": "params-replace-loader",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "用于项目环境变量批量自动替换的webpack loader",
   "main": "index.js",
   "repository": {
@@ -26,10 +26,9 @@
     "loader-utils": "^1.2.3"
   },
   "devDependencies": {
-    "mocha": "^5.0.1",
     "webpack": "^4.34.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node ./test/demo.js --env=test"
   }
 }
