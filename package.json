@@ -1,6 +1,6 @@
 {
   "name": "params-replace-loader",
-  "version": "1.1.2",
+  "version": "1.1.6",
   "description": "用于项目环境变量批量自动替换的webpack loader",
   "main": "index.js",
   "repository": {

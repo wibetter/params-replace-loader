@@ -30,7 +30,7 @@ $ npm install --save-dev params-replace-loader
 
 或者：
 ```bash
-$ yarn add params-replace-loader --save-dev
+$ yarn add params-replace-loader --dev
 ```
 
 #### 2.2. 设置当前执行环境（用于告知params-replace-loader当前的执行环境是什么）
