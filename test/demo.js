@@ -5,7 +5,7 @@ const params = require('./params');
 const testContent = require('./testContent');
 
 // 获取当前环境变量
-console.log('当前环境变量:' + mainAction.getCurrentEnv(params));
+console.log('当前环境变量:' + mainAction.getCurrentEnv());
 
 // 获取当前环境params
 console.log('当前环境params：');
