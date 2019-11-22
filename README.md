@@ -1,6 +1,7 @@
 ## Params replace loader for [Webpack](http://webpack.github.io/)
 
-### 用于项目环境变量批量自动替换的webpack-loader。
+#### 用于项目环境变量批量自动替换的webpack-loader。
+
 
 ## 用法说明:
 
@@ -18,6 +19,7 @@
 4. 不同的执行环境中，其他需要根据当前执行环境设置不同的数值场景；
 5. 也可以设置全局自动替换项目参数；
 
+
 ### 二、params-replace-loader的使用方法
 
 #### 2.1. 安装:
@@ -28,13 +30,13 @@ $ npm install --save-dev params-replace-loader
 
 #### 2.2. 设置当前执行环境（用于告知params-replace-loader当前的执行环境是什么）
 
-##### 2.2.1. 在命令行直接设置env参数值
+#####    2.2.1. 在命令行直接设置env参数值
 ```bash
 $ node ./test/demo.js --env=test
 ```
 注：以上命令通过--env告知params-replace-loader，当前的执行环境是 test.
 
-##### 2.2.2. 也可以在package.json中的scripts设置env参数值
+#####    2.2.2. 也可以在package.json中的scripts设置env参数值
 ```bash
   "scripts": {
     "test": "node ./test/demo.js --env=online"
@@ -42,7 +44,7 @@ $ node ./test/demo.js --env=test
 ```
 注：以上命令通过--env告知params-replace-loader，当前的执行环境是 online.
 
-#### 2.3. 设置环境变量（以下实例设置了三个执行环境的项目参数）
+####    2.3. 设置环境变量（以下实例设置了三个执行环境的项目参数）
 ```bash
    envParams: { // 项目系统环境变量
       common: { // 通用参数
@@ -72,7 +74,7 @@ $ node ./test/demo.js --env=test
 ```
 注：以上envParams放在projectConfig中。
 
-#### 2.4. 引用params-replace-loader
+####    2.4. 引用params-replace-loader
 注：如果只是将params-replace-loader当webpack-loader使用，无需自己引用（安装后即可直接使用）
 
 ```bash
@@ -90,7 +92,7 @@ $ node ./test/demo.js --env=test
 
 ```
 
-#### 2.5. 在webpack中使用params-replace-loader，
+####    2.5. 在webpack中使用params-replace-loader，
 配置 你的`webpack.config.js`:
 
 ```javascript
