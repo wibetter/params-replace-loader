@@ -1,6 +1,6 @@
 {
   "name": "params-replace-loader",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "用于项目环境变量批量自动替换的webpack loader",
   "main": "index.js",
   "repository": {
@@ -23,10 +23,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "loader-utils": "^3.2.1"
+    "loader-utils": "^2.0.4"
   },
   "devDependencies": {
-    "webpack": "^4.34.0"
+    "webpack": "^5.68.0"
   },
   "scripts": {
     "test": "node ./test/demo.js --env=test"
